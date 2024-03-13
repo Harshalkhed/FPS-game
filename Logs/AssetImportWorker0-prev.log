@@ -1,0 +1,314 @@
+Unity Editor version:    2021.3.14f1 (eee1884e7226)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.6 (Build 22G120)
+Darwin version:          22.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/macbook/Javascript Games/Space Meteor/UPWARDS/FPS Game/FPS_ZombieGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63042
+Successfully changed project path to: /Users/macbook/Javascript Games/Space Meteor/UPWARDS/FPS Game/FPS_ZombieGame
+/Users/macbook/Javascript Games/Space Meteor/UPWARDS/FPS Game/FPS_ZombieGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 137.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/macbook/Javascript Games/Space Meteor/UPWARDS/FPS Game/FPS_ZombieGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+HA270 preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56441
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.036584 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 136.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.723 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1724ms)
+		BeginReloadAssembly (420ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1089ms)
+			LoadAssemblies (440ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (695ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (225ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (137ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011880 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/macbook/Javascript Games/Space Meteor/UPWARDS/FPS Game/FPS_ZombieGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/macbook/Javascript Games/Space Meteor/UPWARDS/FPS Game/FPS_ZombieGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.895 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3898ms)
+		BeginReloadAssembly (728ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (2820ms)
+			LoadAssemblies (1333ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (811ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (231ms)
+			SetupLoadedEditorAssemblies (763ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (509ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3356 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (40.4 KB). Loaded Objects now: 3819.
+Memory consumption went from 91.3 MB to 91.2 MB.
+Total: 7.570017 ms (FindLiveObjects: 0.445425 ms CreateObjectMapping: 0.270638 ms MarkObjects: 6.525478 ms  DeleteObjects: 0.326838 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004293 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/macbook/Javascript Games/Space Meteor/UPWARDS/FPS Game/FPS_ZombieGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/macbook/Javascript Games/Space Meteor/UPWARDS/FPS Game/FPS_ZombieGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.493 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3495ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (3056ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (606ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (1904ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (260ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (1345ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3349 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3822.
+Memory consumption went from 94.5 MB to 94.5 MB.
+Total: 39.875806 ms (FindLiveObjects: 3.662220 ms CreateObjectMapping: 16.104216 ms MarkObjects: 20.049021 ms  DeleteObjects: 0.058444 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 299574.660966 seconds.
+  path: Assets/FPS/FPS_Main.unity
+  artifactKey: Guid(657547ec56e20a14abcaa15897f13dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/FPS_Main.unity using Guid(657547ec56e20a14abcaa15897f13dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b35e520874ac34bd642ad856d703a1') in 0.028712 seconds 
+[usbmuxd] Attached: 10 00008110-001804AE26C0401E
+[usbmuxd] Detached: 10 00008110-001804AE26C0401E
+[usbmuxd] Attached: 11 00008110-001804AE26C0401E
+[usbmuxd] Detached: 11 00008110-001804AE26C0401E
+[usbmuxd] Attached: 12 00008110-001804AE26C0401E
+[usbmuxd] Detached: 12 00008110-001804AE26C0401E
+[usbmuxd] Attached: 13 00008110-001804AE26C0401E
+[usbmuxd] Detached: 13 00008110-001804AE26C0401E
+[usbmuxd] Attached: 14 00008110-001804AE26C0401E
+[usbmuxd] Detached: 14 00008110-001804AE26C0401E
+[usbmuxd] Attached: 15 00008110-001804AE26C0401E
+[usbmuxd] Detached: 15 00008110-001804AE26C0401E
+[usbmuxd] Attached: 16 00008110-001804AE26C0401E
+[usbmuxd] Detached: 16 00008110-001804AE26C0401E
+[usbmuxd] Attached: 17 00008110-001804AE26C0401E
+[usbmuxd] Detached: 17 00008110-001804AE26C0401E
+[usbmuxd] Attached: 18 00008110-001804AE26C0401E
+[usbmuxd] Detached: 18 00008110-001804AE26C0401E
+========================================================================
+Received Import Request.
+  Time since last request: 28986.998454 seconds.
+  path: Assets/FPS/RPG_FPS_game_assets_industrial/Map_v1/LightingData.asset
+  artifactKey: Guid(86e619b3dcff8dd448cdd6a2c17c1411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/RPG_FPS_game_assets_industrial/Map_v1/LightingData.asset using Guid(86e619b3dcff8dd448cdd6a2c17c1411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data. Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+ -> (artifact id: '7b0954e8370881496a23d1731489a938') in 2.841299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004631 seconds.
+  path: Assets/FPS/RPG_FPS_game_assets_industrial/Map_v1/NavMesh.asset
+  artifactKey: Guid(dddaa39c070fd484998c6775bb8859a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/RPG_FPS_game_assets_industrial/Map_v1/NavMesh.asset using Guid(dddaa39c070fd484998c6775bb8859a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e3acab35bb7def5b5aa50eb54beee8') in 0.025644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001184 seconds.
+  path: Assets/FPS/RPG_FPS_game_assets_industrial/Map_v1/Lightmap-0_comp_light.exr
+  artifactKey: Guid(37469662d4db43e4284bbd48189ccaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/RPG_FPS_game_assets_industrial/Map_v1/Lightmap-0_comp_light.exr using Guid(37469662d4db43e4284bbd48189ccaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648e7c03df2b37207a67a776307416dd') in 2.648168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/FPS/RPG_FPS_game_assets_industrial/Map_v1/ReflectionProbe-0.exr
+  artifactKey: Guid(f9657b190c3ea31418ace8711de83b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/RPG_FPS_game_assets_industrial/Map_v1/ReflectionProbe-0.exr using Guid(f9657b190c3ea31418ace8711de83b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04bc52e8dd02580f133e703437e823d') in 0.249317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.359697 seconds.
+  path: Assets/FPS/RPG_FPS_game_assets_industrial/Industrial Map.prefab
+  artifactKey: Guid(ef79c08d759e8c141ab8032190d9a4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/RPG_FPS_game_assets_industrial/Industrial Map.prefab using Guid(ef79c08d759e8c141ab8032190d9a4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf9255cbe2bd70d824cd465c9ff0f85') in 2.350221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 107.953662 seconds.
+  path: Assets/FPS
+  artifactKey: Guid(d125ca617c6d74784bf65b98202696b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS using Guid(d125ca617c6d74784bf65b98202696b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc148c1ba473ae48ef9fc1ec717ce83') in 0.001503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.408356 seconds.
+  path: Assets/FPS/Gun
+  artifactKey: Guid(5ff71c72d5fdcc645afe5b3909f20719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/Gun using Guid(5ff71c72d5fdcc645afe5b3909f20719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af585e2989c57731774dcc7a1cc4662') in 0.001442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054648 seconds.
+  path: Assets/FPS/Gun/Heavy.fbx
+  artifactKey: Guid(8233791bab55837408982f359042ae45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/Gun/Heavy.fbx using Guid(8233791bab55837408982f359042ae45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f644d5ff6717098157fd635e2d8b3b36') in 1.576168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/FPS/Gun/Weapon.prefab
+  artifactKey: Guid(88bae2de7f0014e4fa5e93fd72610be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS/Gun/Weapon.prefab using Guid(88bae2de7f0014e4fa5e93fd72610be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d27de3dc12a4789c7bad1f4320bc0c') in 1.111202 seconds 
+[usbmuxd] Attached: 19 00008110-001804AE26C0401E
